@@ -1,0 +1,1700 @@
+@charset "UTF-8";
+
+#scrum-sprint-title {
+    height: 82vh;
+    overflow-y: auto;
+}
+
+#scrum-sprint-title h6 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #495057;
+    padding: 0px;
+    margin: 0px;
+}
+
+#scrum-sprint-title small {
+    font-size: 12px;
+    font-weight: 400;
+    padding: 0px;
+    margin: 0px;
+}
+
+#scrum-sprint-title ul li {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+#backlog-ul li {
+    border: dashed 1px #ddd;
+}
+
+.scrum-sprint-action {
+    font-size: 10px;
+    padding: 1px 5px;
+    font-weight: 300;
+    border-radius: 3px;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+ 
+.task-content button {
+    outline: none !important;
+    border-bottom: 1px solid #ddd;
+    background-color: #e6e6e6 !important;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: capitalize;
+        padding: 6px 15px;
+}
+
+.content-block {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    margin-bottom: 10px !important;
+    height: 150px;
+    overflow-y: auto; 
+    background-color: #efefee !important;
+    cursor: pointer; 
+    width: 100% !important;
+    font-weight: bold;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    padding: 0px;
+}
+
+
+.sprintBox-priority {
+    border-radius: 50rem !important;
+    padding: 3px 6px;
+    font-size: 0.7rem;
+    border: 1px solid #0d6efd;
+    color: #0d6efd;
+}
+
+.scrum-user-card {
+    width: 18rem !important;
+    background-color: #f6fdfe;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #f0f0f0;
+    margin: 10px 10px 0px 0px;
+    border: 1px solid #e4e4e4;
+    text-align: center;
+}
+
+.scrum-user-list {
+    padding: 10px 20px 10px 10px;
+    display: flex;
+}
+
+.scrum-user-list span {
+    background-color: #009688;
+    border-radius: 50px;
+    border: 2px solid white;
+    font-size: 12px;
+    font-weight: 500;
+    color: #fff;
+    padding: 6px 6px;
+    margin-left: -7px;
+}
+
+.scrum-user-card .card-title {
+    font-size: 16px;
+    font-weight: 600;
+    /* border-left: 10px solid #ffbc99; */
+    border-radius: 3px;
+    padding: 3px 0px 3px;
+    margin-bottom: 10px;
+}
+
+
+.query-bulider {
+    width: 150px;
+    /* z-index: 999; */
+}
+
+#query-bulider-btn {
+    padding: 3px 8px;
+    background-color: #0052cc;
+    color: #fff;
+}
+
+.query-bulider-new {
+    
+    width: 150px;
+    z-index: 999;
+}
+
+.filter_dropdown {
+    position: absolute;
+    top: 18px;
+    left: 14%;
+    width: 150px;
+    z-index: 999;
+}
+
+.filter_dropdown2 {
+  display: none;
+  transition-duration: 5s;
+  transition-delay: 2s;
+}
+
+.nowrap {
+    white-space: nowrap;
+    max-width: 720px !important;
+    overflow: hidden;
+    /* text-overflow: ellipsis; */
+}
+
+#query-bulider-wrapper select {
+    height: 36px;
+}
+
+.update-task .edit-task {
+    height: 70px;
+    border: 1px solid #e6e6e6;
+    width: 100%;
+    font-size: 16px;
+    text-align: left;
+    border-radius: 3px;
+    overflow: auto;
+    font-weight: 500;
+    padding: 0px 10px;
+    resize: none;
+    outline: none;
+}
+
+#nav-tab .active {
+    background-color: #505f79 !important;
+    color: #fff !important;
+    border: 1px solid #505f79;
+}
+
+.activity .nav-link {
+    padding: 2px 5px;
+    margin: 0px 10px 0px 0px;
+    font-size: 12px;
+    font-weight: 400;
+    border-radius: 3px !important;
+    border: 1px solid #505f793b;
+    background-color: #eaeef3;
+    color: #333;
+    outline: none;
+    border-radius: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.active {
+  color: black !important;
+}
+
+
+
+.task-content button {
+  outline: none !important;
+  border-bottom: 1px solid #ddd;
+  background-color: #e6e6e6 !important;
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.task-content .badge {
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.content-block {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  margin-bottom: 10px !important;
+  height: 150px;
+  overflow-y: auto;
+  /* margin: 10px 10px; */
+  background-color: #efefee !important;
+}
+
+.content-block tr:last-child {
+  border: none !important;
+}
+
+.subnavigator-title {
+  color: var(--ds-text, #172b4d);
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 20px;
+  padding-left: 10px;
+  text-transform: capitalize;
+  color: #333;
+}
+
+.sprint-title {
+  margin-bottom: 10px;
+}
+
+.days-left {
+  font-size: 14px;
+  height: 2.14285714em;
+  line-height: 1.42857143;
+  padding: 4px 10px;
+  border: var(--ds-border, 1px) solid transparent;
+}
+
+.days-left {
+  background: var(--ds-background-neutral, #f5f5f5);
+  border: var(--ds-border, 1px) solid #ccc;
+  border-radius: 3.01px;
+  color: var(--ds-text, #333);
+  cursor: pointer;
+  display: inline-block;
+  font-family: inherit;
+  font-size: 14px;
+  font-variant: normal;
+  font-weight: normal;
+  height: 2.14285714em;
+  line-height: 1.42857143;
+  margin: 0;
+  padding: 4px 7px 4px 3px;
+  text-decoration: none;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+#ghx-complete-sprint {
+  box-sizing: border-box;
+  background: var(--ds-background-neutral, #f5f5f5);
+  border: var(--ds-border, 1px) solid #ccc;
+  border-radius: 3.01px;
+  color: var(--ds-text, #333);
+  cursor: pointer;
+  display: inline-block;
+  font-family: inherit;
+  font-size: 13px;
+  font-variant: normal;
+  font-weight: normal;
+  height: 2.14285714em;
+  line-height: 1.42857143;
+  margin: 0;
+  padding: 4px 10px;
+  text-decoration: none;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+#ghx-sprint-status {
+  box-sizing: border-box;
+  background: var(--ds-background-neutral, #f5f5f5);
+  border: var(--ds-border, 1px) solid #ccc;
+  border-radius: 3.01px;
+  color: var(--ds-text, #333);
+  cursor: pointer;
+  display: inline-block;
+  font-family: inherit;
+  font-size: 13px;
+  font-variant: normal;
+  font-weight: normal;
+  margin: 0;
+  padding: 4px 10px;
+  text-decoration: none;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.js-complete-sprint,
+.js-sprint-status,
+.sprint-scrum-team {
+  box-sizing: border-box;
+  background: var(--ds-background-neutral, #f5f5f5);
+  border: var(--ds-border, 1px) solid #ccc;
+  border-radius: 3.01px;
+  color: var(--ds-text, #333);
+  cursor: pointer;
+  display: inline-block;
+  font-family: inherit;
+  font-size: 13px;
+  font-variant: normal;
+  font-weight: normal;
+  height: 2.14285714em;
+  line-height: 1.42857143;
+  margin: 0;
+  padding: 4px 10px;
+  text-decoration: none;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+#backlog-ul li {
+  border: dashed 1px #ddd;
+}
+
+/* .collapsible-block:after {
+  content: "\2304";
+  font-weight: bold;
+  margin-top: -3px;
+  margin-right: 5px;
+  transition: 300ms ease all;
+} */
+
+.collapsible-block.active:after {
+  /* content: "\2304"; */
+  margin-top: 5px !important;
+  transform: rotate(-180deg);
+  transition: 500ms ease all;
+}
+
+.acitve-user {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  border-radius: 20px;
+  color: white;
+  background: var(--ds-background-neutral, #0052cc);
+  padding: 1px;
+  margin: 0px -3px;
+  border: 2px solid #fff;
+  text-transform: uppercase;
+}
+
+.user-search {
+  /* background: var(--ds-background-neutral, #ffffff);
+  border: var(--ds-border, 1px) solid #ccc;
+  padding: 8px 6px;
+  height: 2em;
+  outline: 0;
+  border-radius: 3px;
+  border-bottom-right-radius: 3.01px; */
+
+  background: var(--ds-background-neutral, #ffffff);
+  border: var(--ds-border, 1px) solid #ccc;
+  padding: 5px 5px;
+  height: 30px;
+  outline: 0;
+  border-radius: 3px;
+  border-bottom-right-radius: 3.01px;
+  width: 200px;
+}
+
+.user-search i {
+  background-color: #fff;
+}
+
+
+
+.fa-magnifying-glass {
+	position: absolute;
+	top: 8px;
+	right: 8px;
+	color: #ccc;
+	background-color: #fff;
+}
+
+.user-search:hover {
+  background-color: var(--ds-background-input, #fafbfc);
+  border-color: var(--ds-border-input, #dfe1e6);
+  color: var(--ds-text, #091e42);
+}
+
+.start-sprint {
+  position: relative;
+}
+
+.start-sprint-popupBox {
+  top: 0px;
+  left: 20px;
+  position: absolute;
+  z-index: 1000;
+  width: 200px;
+  max-height: 120px;
+  border-radius: 3px;
+  overflow-y: auto;
+}
+
+.start-sprint-popupBox ul li {
+  font-size: 12px;
+}
+
+#start-sprint-ul a {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 0px;
+}
+
+#start-sprint-ul p {
+  font-size: 12px;
+  font-weight: 400;
+  color: #aaa;
+  padding: 5px 0px;
+}
+
+.cross-btn {
+  background: transparent;
+  border: none;
+}
+
+.top-block {
+  border: 1px solid lightgray;
+  width: 100%;
+  /* height: 300px; */
+}
+
+.bottom-block {
+  border: 1px solid lightgray;
+  width: 100%;
+}
+
+.bottom-block ul {
+  list-style-type: none;
+}
+
+.bottom-block ul li {
+  border-top: 1px solid lightgray;
+}
+
+.update-task {
+  position: relative;
+}
+
+.update-task-btn {
+  position: absolute;
+  bottom: 5px;
+  right: 15px;
+}
+
+.update-task .edit-task {
+  height: 70px;
+  border: 1px solid #e6e6e6;
+  width: 100%;
+  font-size: 16px;
+  text-align: left;
+  border-radius: 3px;
+  overflow: auto;
+  font-weight: 500;
+  padding: 0px 10px;
+  resize: none;
+  outline: none;
+
+}
+
+.update-task:hover {
+  background-color: #eee;
+}
+
+.update-task-btn button {
+  padding: 0px 0px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  width: 32px;
+  height: 30px;
+  box-shadow: 0 0.12rem 0.35rem rgb(18 38 63 / 15%);
+}
+
+.update-task-details {
+  padding: 15px 15px 30px 15px;
+  background-color: #f4f4f4;
+  border-radius: 3px;
+  border: 1px solid #e6e6e6;
+}
+
+/* .attachments i {
+  padding: 3px 4px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  margin: 0px 9px 2px 7px;
+  width: 20px;
+  height: 20px;
+  box-shadow: 0 0.12rem 0.25rem rgb(18 38 63 / 15%);
+  font-size: 12px;
+  border-radius: 3px;
+} */
+
+.tab-content {
+  height: 37vh;
+}
+
+.add-attachment-ui {
+  padding: 3px 5px 1px 7px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  margin: 0px 9px 2px 0px;
+  box-shadow: 0 0.12rem 0.25rem rgb(18 38 63 / 15%);
+  font-size: 12px;
+  border-radius: 3px;
+}
+
+.img-thumb {
+  width: 50px;
+  height: 50px;
+}
+
+.img-thumbs-wrapper {
+  max-height: 170px;
+  padding: 0px 5px 0px 0px;
+  border-radius: 3px;
+  width: 100%;
+  overflow-x: auto;
+}
+
+.quote-imgs-thumbs {
+  background: #eee;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  margin: 1.5rem 0;
+  padding: 0.75rem;
+}
+
+.quote-imgs-thumbs--hidden {
+  display: none;
+}
+
+.img-preview-wrapper {
+  position: relative;
+  margin-top: 1px;
+  border: 1px solid #ccc;
+  width: 150px;
+  height: 150px;
+  margin-right: 10px;
+  border-radius: 0.25rem;
+  box-shadow: 0.125rem 0.125rem 0.0625rem rgba(0, 0, 0, 0.12);
+}
+
+.img-preview-thumb {
+  background: #fff;
+  padding: 0px;
+  width: 148px;
+  border-radius: 0.25rem;
+  height: 100px;
+  position: relative;
+}
+
+.img-preview-thumb:hover {
+  opacity: 0.5;
+}
+
+.img-preview-wrapper:hover .close-btn {
+  display: block;
+}
+
+.img-preview-wrapper:hover .downloadBtn {
+  display: block;
+}
+
+.img-preview-wrapper p {
+  font-size: 13px;
+  font-weight: 600;
+  padding: 7px 0px 0px 10px;
+  word-wrap: break-word;
+}
+
+.close-btn {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  z-index: 1000;
+  color: #fff;
+  background-color: #333333de;
+  padding: 5px;
+  border-radius: 3px;
+  display: none;
+}
+
+.downloadBtn {
+  position: absolute;
+  top: 5%;
+  right: 25%;
+  z-index: 1000;
+  color: #fff;
+  background-color: #333333de;
+  padding: 5px;
+  border-radius: 3px;
+  display: none;
+}
+
+.activity {
+  /*border: 1px solid #e6e6e6;
+  padding: 10px 0px; 
+      background-color: #f5f5f5;*/
+  /* height: 45vh;
+    
+    overflow-y: auto; */
+  position: relative;
+}
+
+/* .activity .nav-tabs {
+  border-bottom: 2px solid #505f79;
+} */
+
+.add-comment {
+  position: absolute;
+  background-color: #505f79;
+  color: #fff;
+  padding: 15px;
+  right: 30px;
+  bottom: 20px;
+  border-radius: 50px;
+  box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, .6) !important;
+}
+
+.activity .nav-link {
+  padding: 2px 5px;
+  margin: 0px 10px 0px 0px;
+  font-size: 12px;
+  font-weight: 400;
+  border-radius: 3px !important;
+  border: 1px solid #505f793b;
+  background-color: #eaeef3;
+  color: #333;
+  outline: none;
+  border-radius: 0px;
+}
+
+.activity .nav-link:hover {
+  background-color: #505f7947;
+}
+
+
+
+#nav-tab .active {
+  background-color: #505f79 !important;
+  color: #fff !important;
+  border: 1px solid #505f79;
+}
+
+.comment {
+  margin: 10px 20px 0px 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+/* #nav-tabContent {
+  height: 50vh;
+  overflow-y: auto;
+}
+ */
+.comment .comment-user {
+  background-color: #0052cc;
+  border-radius: 30px;
+  margin: 5px 20px 0px 0px;
+  padding: 5px 6px;
+  color: #fff;
+  font-size: 13px;
+}
+
+.comment .comment-text h6 {
+  font-size: 14px;
+  font-weight: 700;
+  padding-bottom: 0px;
+  color: #333;
+  margin: 7px 0px 0px;
+}
+
+.comment .comment-text span {
+  font-size: 11px;
+  font-weight: 500;
+  padding-bottom: 0px;
+  color: #212529;
+  margin-top: 7px;
+}
+
+.comment .comment-text p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #555;
+  margin: 0px;
+  padding: 0px;
+}
+
+.send-comment {
+  /* background-color: #e4e4e4; */
+  /* position: absolute;
+  bottom: 0px; */
+  width: 100%;
+  margin: 0px 0px;
+  padding: 0px;
+}
+
+.history-user {
+  background-color: #0052cc;
+  border-radius: 30px;
+  margin: 5px 15px 0px 0px;
+  padding: 5px 6px;
+  color: #fff;
+  font-size: 13px;
+}
+
+#nav-history p {
+  font-size: 14px;
+  font-weight: 500;
+  color: #555;
+  margin: 0px 0px 7px 0px;
+  padding: 0px;
+}
+
+#nav-history span {
+  font-size: 11px;
+  font-weight: 500;
+  padding-bottom: 0px;
+  color: #212529;
+  margin-top: 15px;
+}
+
+
+.priority {
+  color: #0052ccb5;
+  font-size: 0.7rem;
+  background-color: #0052cc26;
+  margin: 0.25rem;
+  padding: 0.35em 0.65em;
+  border: 1px solid #0052cc5e;
+}
+
+.context-menu-icon::before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 2em;
+  font-family: "context-menu-icons";
+  font-size: 1em;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  color: #0052cc;
+  text-align: center;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.draggable {
+  border-left: 4px solid #0052cc;
+}
+
+.context-menu-item.context-menu-hover {
+  color: #fff;
+  cursor: pointer;
+  background-color: #0052cc;
+}
+
+.sprintBox {
+  height: 250px;
+  background-color: #f7f7f7;
+  overflow-y: auto;
+  margin: 10px 0px;
+  border-radius: 3px;
+}
+
+.sprintBox-title {
+  font-size: 12px;
+  font-weight: 500;
+
+}
+
+.sprintBox-priority {
+  border-radius: 50rem !important;
+  padding: 3px 6px;
+  font-size: 0.7rem;
+  border: 1px solid #0d6efd;
+  color: #0d6efd;
+}
+
+.nowrap {
+  white-space: nowrap;
+  max-width: 720px !important;
+  overflow: hidden;
+  /* text-overflow: ellipsis; */
+}
+
+.priority-low {
+  background-color: green;
+}
+
+.priority-medium {
+  background-color: #ffa50017;
+  color: #d16a00;
+  border: 1px solid #ffaa558a;
+  font-weight: 500;
+}
+
+.priority-high {
+  background-color: red;
+}
+
+.severity-low {
+  color: #13a03b;
+  font-size: 0.7rem;
+  border: 1px solid #198754;
+}
+
+.severity-medium {
+  color: orange;
+  font-size: 0.7rem;
+  border: 1px solid orange;
+}
+
+.severity-high {
+  color: red;
+  font-size: 0.7rem;
+  border: 1px solid red;
+}
+
+.lavender-pinocchio {
+  color: black;
+  background-color: #dfe1e6;
+  font-size: 0.7rem;
+  border: 1px solid #dfe1e6;
+}
+
+.lavender-mist {
+  color: black;
+  background-color: #deebff;
+  font-size: 0.7rem;
+  border: 1px solid #deebff;
+}
+
+.aqua-spring {
+  color: #006644;
+  background-color: #4cd38d4f;
+  font-size: 0.7rem;
+  border: 1px solid #02f577;
+  font-weight: 500;
+}
+
+.filter_dropdown {
+  position: absolute;
+  top: 18px;
+  left: 14%;
+  width: 150px;
+  z-index: 999;
+}
+
+.mutliSelect li {
+  padding: 5px 10px;
+  color: #333;
+}
+
+.mutliSelect li:hover {
+  padding: 5px 10px;
+  color: #333;
+}
+
+.mutliSelect input {
+  margin: 0px 10px 0px 0px;
+}
+
+.xd-dialog {
+  width: 200px;
+}
+
+.xd-content .xd-body .xd-body-inner {
+  max-height: unset;
+}
+
+.xd-content .xd-body p {
+  color: #f0f;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.75);
+  margin-top: 20px;
+}
+
+.xd-content .xd-button.xd-ok {
+  background: #734caf;
+}
+
+.xd-content .xd-body p {
+  color: #0e0e0e;
+  text-shadow: none;
+  font-size: 0.9 rem;
+  font-weight: 600;
+}
+
+.xd-content .xd-button.xd-ok {
+  background: #0052cc;
+}
+
+.xd-content .xd-buttons {
+  padding: 0em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0.8rem;
+}
+
+.xd-content .xd-button {
+  border: none;
+  padding: 0.3em 0.5em;
+  background: #9e9e9e;
+  color: #fff;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+  min-width: 10em;
+  margin: 0.2em 1em;
+  border-radius: 2px;
+  outline: 0;
+}
+
+.filter {
+  width: 150px;
+  position: absolute;
+  top: 10px;
+  left: 425px;
+  border-radius: 3px;
+  z-index: 1000;
+  font-size: 0.8rem;
+  border: 1px solid #aaa;
+  height: 26px;
+}
+
+.status-Badge {
+  background: #253858;
+  display: inline-block;
+  padding: 0.35em 0.65em;
+  font-size: 0.85em;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+}
+
+.disabledSmtp {
+  pointer-events: none;
+  opacity: 0.7;
+}
+
+.task-status {
+  background-color: #505f79;
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin: 20px 10px;
+  padding: 4px;
+  border-radius: 3px;
+}
+
+.task-status:focus {
+  background-color: #505f79;
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin: 20px 10px;
+  padding: 4px;
+  border-radius: 3px;
+}
+
+.default-project {
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-top: 10px;
+  padding: 1px 10px;
+  border-radius: 3px;
+  outline: none;
+  max-width: 100px;
+  border: none;
+  background-color: #0052cc;
+  color: #fff;
+}
+
+.login-logo {
+  background-color: #05153f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.scrum-card {
+  margin: 10px 0px !important;
+  font-size: 1.5rem;
+  color: #0052cc;
+  font-weight: 700;
+  font-size: 0.9rem;
+  font-weight: 700;
+  width: 99%;
+  display: inline-block;
+  border: 1px solid lightgray;
+}
+
+.scrum-users {
+  width: 49%;
+  height: 500px;
+  border: 1px solid lightgray;
+  display: inline-block;
+  float: left;
+}
+
+.scrum-tasks {
+  width: 49%;
+  border: 1px solid lightgray;
+  display: inline-block;
+  height: 500px;
+  float: left;
+}
+
+.scrum-user-ul {
+  list-style-type: none;
+}
+
+.scrum-user-list {
+  padding: 10px 20px 10px 10px;
+  display: flex;
+}
+
+.scrum-user-list span {
+  background-color: #009688;
+  border-radius: 50px;
+  border: 2px solid white;
+  font-size: 12px;
+  font-weight: 500;
+  color: #fff;
+  padding: 6px 6px;
+  margin-left: -7px;
+}
+
+.scrum-user-list img {
+  vertical-align: middle;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  margin-left: -12px;
+  border: 3px solid #89aecc;
+}
+
+.scrum-user-card {
+  width: 18rem !important;
+  background-color: #f6fdfe;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid #f0f0f0;
+  margin: 10px 10px 0px 0px;
+  border: 1px solid #e4e4e4;
+  text-align: center;
+}
+
+.scrum-user-card i {
+  background-color: #0052cc;
+  padding: 10px 10px 10px 10px;
+  border-radius: 30px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.scrum-user-card .card-title {
+  font-size: 16px;
+  font-weight: 600;
+  /* border-left:10px solid #ffbc99; */
+  border-radius: 3px;
+  padding: 3px 0px 3px;
+  margin-bottom: 10px;
+}
+
+.img-icon {
+  background-color: #009688;
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+  padding: 10px 11px;
+}
+
+.scrum-list-group {
+  max-height: 70vh;
+  overflow-y: auto;
+}
+
+.scrum-list-group .active {
+  background-color: #eee;
+  color: #495057;
+}
+
+.scrum-list {
+  /* background-color: #fff; */
+  /* padding: 0.3rem .5rem; */
+  color: #495057;
+}
+
+.scrum-task-list {
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+  border-left: 3px solid #009688;
+  border-radius: 3px;
+  padding: 0.5rem 1rem;
+  color: #495057;
+}
+
+.scrum-list:hover {
+  background-color: #eee;
+  color: #495057;
+}
+
+.scrumTeamDetails {
+  background-color: #eee;
+}
+
+.scrume-task-status {
+  padding: 0px 2px;
+  background-color: #0052cc40;
+  font-size: 0.7rem;
+  border-radius: 3px;
+  margin-left: 10px;
+  color: #0052cc;
+  font-weight: 600;
+  text-align: center;
+  display: flex;
+  text-align: center;
+}
+
+.notification-dropdown {
+  width: 250px;
+  padding: 0px 0px;
+  max-height: 250px;
+  overflow: auto;
+}
+
+.scrum-project-filter {
+  width: 150px;
+  position: absolute;
+  top: 12px;
+  right: 30px;
+  border-radius: 3px;
+  z-index: 100;
+  font-size: 0.8rem;
+  border: 1px solid #aaa;
+  height: 26px;
+}
+
+/* table.dataTable tbody th,
+table.dataTable tbody td {
+  padding: 8px 0px !important;
+} */
+
+.scrumrole {
+  font-size: 12px;
+}
+
+.scrumuser {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.scrum-role {
+  width: 137px;
+  font-size: 0.8rem;
+  height: 28px;
+}
+
+.card-height {
+  max-height: 250px;
+  overflow-y: auto;
+}
+
+.sprint-scrum-team {
+  margin-right: 0px;
+}
+
+.sprint-scrum-team i {
+  border: 1px solid #ccc;
+  padding: 7px 7px 7px 7px;
+  border-radius: 3px;
+  background-color: #f5f5f5;
+  color: #666060;
+}
+
+.sprint-scrum-team {
+  padding: 4px 5px;
+  color: #6b6868;
+}
+
+.sprint-scrum-team i {
+  padding: 3px 3px 3px 3px;
+}
+
+.sprint-scrum-team:hover {
+  text-decoration: none;
+  color: var(--ds-text, #333);
+}
+
+.total-story-points {
+  font-size: 13px;
+  font-weight: 500;
+
+}
+
+.reamining-days-block {
+  background: darkcyan;
+  color: white;
+  font-weight: 600;
+  padding: 7px;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+.reamining-days-block {
+  background: darkcyan;
+  color: white;
+  font-weight: 500;
+  padding: 6px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.scrume-add-msg {
+  height: 35vh;
+  width: 100%;
+  /* border: 1px solid lightgray; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.scrume-add-msg i {
+  border: 1px solid #ddd;
+  padding: 15px 12px;
+  border-radius: 78px;
+  font-size: 30px;
+  color: #1070fd;
+  margin-bottom: 15px;
+}
+
+.scrume-add-msg a {
+  font-size: 16px;
+  margin: 10px 0px
+}
+
+#sprint-scrum-team-list i {
+  background-color: #0052cc;
+  padding: 10px 8px;
+  border-radius: 30px;
+  color: #fff;
+}
+
+#complete-sprint-tasks {
+  max-height: 180px;
+  overflow-y: auto;
+}
+
+.select-chart {
+  background-color: darkcyan;
+  padding: 1px 5px;
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  width: 85px;
+  border-radius: 3px;
+  font-size: 13px;
+  outline: none;
+  border: none;
+  color: #fff;
+}
+
+.bar-diagram {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  color: darkcyan;
+}
+
+.dashboard-scrum-list {
+  max-height: 142px;
+  overflow-y: auto;
+}
+
+.dashboard-title {
+  background-color: #fbfbfb;
+  padding: 7px 0px;
+  border-bottom: 1px solid #eae7e7;
+}
+
+.dashboard-title h5 {
+  font-size: 13px;
+  font-weight: 500;
+  margin: 0px 20px;
+  padding: 3px 0px;
+}
+
+.dashboard-taskCount {
+  position: absolute;
+  top: 50px;
+  right: 15px;
+  text-align: end;
+}
+
+.dashboard-taskCount p {
+  font-weight: 600 !important;
+  color: #6a6d6f;
+}
+
+.dashboard-taskCount span {
+  font-weight: 700;
+  color: #000;
+}
+
+.dashboard-assigned-tasks-table td {
+  font-size: 13px;
+  font-weight: 500;
+  padding: 4px 0px;
+}
+
+.scrumeTeamCard {
+  background-color: #fff;
+  margin: 5px 5px 7px 5px;
+  width: 180px;
+  border-radius: 3px;
+  border: 1px solid #d9d9d9;
+  text-align: center;
+  padding: 10px 0px;
+  height: 140px;
+}
+
+.scrumeTeamCard i {
+  background-color: #0052cc;
+  padding: 13px 8px;
+  border-radius: 30px;
+  color: #fff;
+  width: 42px;
+  height: 42px;
+  margin-bottom: 10px;
+}
+
+.scrum-team {
+  width: 15rem;
+  background-color: #fff;
+  margin: 10px;
+  padding: 3px 15px;
+  border-left: 4px solid blue;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-radius: 2px 7px 7px 2px;
+}
+
+.scrum-team small {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #5a596c;
+}
+
+.scrum-team h4 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 7px;
+}
+
+#scrum-team-history-for-sprint button {
+  background-color: #fff;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #5a596c;
+}
+
+#scrum-team-history-for-sprint .accordion-body {
+  background-color: #e0e0e0;
+  padding: 5px;
+}
+
+.sprint-scrum-history-ul {
+  padding: 5px;
+  margin: 0px;
+}
+
+#barchart_material text {
+  font-size: 13px;
+  color: #212529;
+  font-weight: 500;
+}
+
+.carry-forward-task-links {
+  margin: 0px 5px;
+  text-decoration: underline;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.colorLight {
+  color: #767676;
+  font-weight: 500;
+}
+
+.in-active {
+  color: #e65555;
+  font-size: 0.7rem;
+  border: 1px solid #dc3545;
+}
+
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0px;
+}
+
+.Project-card {
+  width: 100px;
+  max-height: 60px;
+  margin: 2px;
+  border: 1px solid #ddd;
+  padding: 5px;
+  border-radius: 3px;
+  box-shadow: 0 .1rem .5rem rgba(0, 0, 0, .10) !important;
+  color: #333333ed;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.Project-card h6 {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.Project-card p {
+  font-size: 10px;
+  font-weight: 500;
+  color: #434343d0;
+  margin: 10px 0px 0px;
+}
+
+.scrum-team-card {
+  width: 155px;
+  max-height: 60px;
+}
+
+.add-icon i {
+  padding: 5px;
+  background-color: #eee;
+  color: #0a58ca;
+  border-radius: 3px;
+  margin: 2px 0px 0px;
+  border: 1px solid #eee;
+}
+
+.storyPoint,
+.range {
+  height: 32px;
+  border-radius: 3px;
+}
+
+.priority-status {
+  padding: 12px 20px;
+  border-radius: 4px;
+  margin: 10px 0px;
+  position: relative;
+}
+
+.priority-status i {
+  margin-right: 5px
+}
+
+.priority-status h5 {
+  font-size: 16px;
+  color: #4c4c4c;
+  font-weight: 500;
+  margin: 0px 0px 5px;
+}
+
+.priority-status small {
+  font-size: 12px;
+  color: #8e8e8e;
+  font-weight: 500;
+}
+
+.priority-status .remove {
+  position: absolute;
+  top: 5px;
+  right: 0px;
+  color: #ea868f;
+  font-size: 14px;
+}
+
+.priority-status .edit {
+  position: absolute;
+  top: 5px;
+  right: 25px;
+  color: #75b798;
+  font-size: 14px;
+}
+
+
+.attachments-btn {
+  padding: 10px 20px;
+  color: #fff;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Nunito+Sans:wght@600&family=Poppins:wght@200;300;400;500;600;700&family=Roboto:wght@400;500&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+.project-scrum-team {
+  text-align: center;
+}
+
+.project-scrum-team i {
+  padding: 25px 35px;
+  /* background-color: #7687e1; */
+  color: #7687e1;
+  border-radius: 5px 0px 0px 5px;
+  font-size: 20px;
+  background-color: #cfe2ff;
+}
+
+.project-scrum-team span {
+  padding: 12px 12px;
+  background-color: #7688e142;
+  color: #7687e1;
+  border-radius: 37px;
+  font-size: 20px;
+  margin: 13px 0px 13px 20px;
+}
+
+.project-scrum-team h5 {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.project-scrum-team p {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.scrum-master-project {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, .125);
+  border-radius: 0.25rem;
+  padding: 10px 15px;
+  height: 233px;
+  overflow-y: auto;
+}
+
+.scrum-master-project-text {
+  margin-left: 15px;
+  margin-top: 5px;
+  position: relative;
+}
+
+.scrum-master-project-text span {
+  margin: 0px 0px 2px 0px;
+  font-size: 10px;
+  font-weight: 600;
+  color: #333333e0;
+  background: #cfe2ff;
+  padding: 0px 4px;
+  border-radius: 3px;
+}
+
+
+
+.scrum-master-project-text h6 {
+  padding: 0px;
+  margin: 0px 0px 2px 0px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #333;
+}
+
+.scrum-master-project-text p {
+  padding: 0px;
+  margin: 0px;
+  font-size: 11px;
+  font-weight: 400;
+  color: #333;
+}
+
+.scrum-team {
+  margin: 20px 0px 5px 0px;
+  border: 1px solid #ddd;
+  padding: 5px 10px;
+  border-radius: 23px;
+  /* box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important; */
+  box-shadow: 0 .1rem .5rem rgba(0, 0, 0, .10) !important;
+  background-color: #f5f7ff;
+  font-size: 12px;
+  color: #333333bf;
+  text-align: center;
+}
+
+
+
+
+

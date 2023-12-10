@@ -1,0 +1,96 @@
+#report-summary {
+	max-height: 50vh;
+	overflow-y: auto;
+	background-color: #fafafa;
+}
+
+#report-summary-completed {
+	max-height: 50vh;
+	overflow-y: auto;
+	background-color: #fafafa;
+}
+
+#report-summary h6, #report-summary-completed h6 {
+	font-size: 14px;
+	font-weight: 600;
+	color: #495057;
+	padding: 0px;
+	margin: 0px;
+	padding: 12px 10px 15px;
+	border-bottom: 1px solid #cecece;
+	margin-bottom: 10px;
+}
+
+#report-summary small, #report-summary-completed small {
+	font-size: 12px;
+	font-weight: 400;
+	padding: 0px;
+	margin: 0px;
+}
+
+#report-summary .list-group, #report-summary-completed .list-group {
+	margin-bottom: 10px;
+}
+
+#report-summary ul li, #report-summary-completed ul li {
+	font-size: 12px;
+	font-weight: 600;
+	padding: 7px 10px;
+	border-left: 3px solid #dc3545;
+}
+
+#report-summary-completed ul li {
+	font-size: 12px;
+	font-weight: 600;
+	padding: 7px 10px;
+	border-left: 3px solid #0052cc;
+}
+
+#report-summary ul li a, #report-summary-completed ul li a {
+	color: #fff;
+}
+
+#report-summary ul li a:hover, #report-summary-completed ul li a:hover {
+	color: #fff;
+}
+
+.project-initial-name {
+	font-size: 10px;
+	background-color: #5f646c;
+	padding: 2px 10px;
+	border-radius: 48px;
+	color: #fff;
+	margin-right: 10px;
+}
+
+.project-initial-name:hover {
+	color: #fff;
+}
+
+.colorLight {
+	color: #212529 !important;
+	font-size: 12px;
+	font-weight: 600;
+}
+
+text {
+	font-size: 13px;
+	stroke: none;
+	stroke-width: 0;
+	fill: rgb(60, 60, 60);
+}
+
+#task-priority {
+	background-color: #a3cfbb;
+	color: #343a40;
+}
+
+#task-storyPoint {
+	background-color: #feb272;
+	color: #343a40
+}
+
+#task-status {
+	background-color: #6ea8fe;
+	color: #343a40
+}
